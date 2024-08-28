@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ecf0f1;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1 1 calc(50% - 40px);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .project {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Big Data Analysis | Data Visualization | Cloud Tool Integration | Control Systems</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a professional with expertise in big data analysis, data visualization, cloud tool integration, and control systems design. 
+            I specialize in developing solutions that leverage cutting-edge technologies to solve complex technical challenges.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Water Level Control System</h3>
+                <p>Developed a LQR-based control system for water level management in industrial tanks, ensuring stability and precision.</p>
+            </div>
+            <div class="project">
+                <h3>Big Data Visualization Tool</h3>
+                <p>Created an interactive tool for visualizing large datasets, enhancing decision-making through intuitive data representations.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, Java, SQL</li>
+            <li>Tools: Hadoop, Spark, Tableau</li>
+            <li>Methodologies: LQR Design, Data Modeling, Cloud Integration</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:saalinilanka@gmail.com">saalinilanka@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/saalinilanka" target="_blank">Your LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
